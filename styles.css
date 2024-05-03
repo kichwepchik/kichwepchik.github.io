@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.menu-toggle {
+    position: absolute;
+    top: 20px;
+    left: -30px; /* Для эффекта выезжающего меню */
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.store-name {
+    text-align: center;
+}
+
+.store-name h1 {
+    margin: 0;
+}
+
+.store-name img {
+    width: 50px; /* Измените размер логотипа по необходимости */
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
